@@ -56,21 +56,12 @@
 
 ## Accessing SOAR + Connect Instance
 
-### Step 0: Obtaining Environment Access
+### Step 0: The Environment
 
-- To receive your access to your instances of **QRadar** and **CP4S**, please either [email me](mailto:gerald.trotman@ibm.com) directly or [slack me](https://ibm-security.slack.com/team/W89V66EH0) directly. I will provide you the following format:
-
- ```bash 
- QRadar - (Authenticate with Username and Password)
- Host: x.x.x.x
- Username:
- Password:
+- To perform this lab, you will of course need an instance of **CP4S** *(now known as QRadar Suite)* as well as an instance of **QRadar SIEM** with *offenses* and the **QRadar SOAR Plugin** installed and configured. 
  
- CP4S - (Authenticate with IBMid and password via SAML)
- FQDN:  msu-soar-lab-x.cloudpaksecurity.com
- IBMid: tech-bootcamp-user-x@mailinator.com
- Password: 
- ```
+ > **Note**
+ > This lab can also be used to run in QRadar SOAR Stand Alone as well but some modifications to some of these instructions.
  
 - Once at the CP4S landing page, you choose the *Authentication Type* called **Enterprise SAML** as shown below:
 
